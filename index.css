@@ -1,0 +1,67 @@
+html{
+    font-size:62.5%;
+    }
+  
+  body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family:;
+  }
+  h1, h2 {
+    font-family:;
+  }
+  a{
+    text-decoration:none;
+    letter-spacing:3px;
+  }
+  section {
+    padding: 4%;
+    
+  }
+
+* {
+    box-sizing:border-box;
+}
+
+
+
+ nav a {
+    text-align: center;
+    margin: 0 5%;
+    border: 1px solid black;
+    padding: 20px; 
+    border-radius: 30%;
+    display: inline-block;
+    margin-bottom: 4%;    
+     
+ }
+
+.top-section img {
+    border-radius: 50%;
+    display:inline-block;
+    width:30%;
+    margin: 5 5 5 5;
+}
+
+
+
+.middle-container {
+    display: inline-block;
+}
+
+.top-section h1 {
+   display: inline-block;
+      margin:0 auto;
+      text-align: end;
+}
+
+.middle-section {
+    display:inline-block;
+    width: 80%;
+    align-items: cneter;
+    background-color:tan;
+    color: white;
+    margin:0 auto;
+    
+}
+
