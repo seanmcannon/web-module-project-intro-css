@@ -3,6 +3,7 @@
 * {
     box-sizing:border-box;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header {
@@ -11,9 +12,8 @@ header {
 
 nav {
     text-align: center;
-    margin: 5%;
     padding: 1%;
-    
+    letter-spacing: 1px;
     
 }
 
@@ -28,37 +28,56 @@ nav {
 
  .one {
     color:white;
-    background-color: tomato;
+    background-color: #FF764E;
+    display: inline-block;
+    max-width: 130px;
+    
+        
  }
    
    .two {
-       color:white;
-       background-color: rgb(132, 178, 238);
+    color:white;
+    background-color: #5ED3EB;
+    display: inline-block;
+    max-width: 130px;
    }
 
    
    .three {
     color: white;
-    background-color: orange;
+    background-color: #FCD69e;
+    display: inline-block;
+    max-width: 130px;
 
    }
    
 .top-section {
     display: inline-block;
+    margin: 0 auto;
 }
 
 .text {
     display: inline-block;
+    text-align: center;
+    
 }
 
+.text h1 {
+    font-size: 3rem;
+    font-family: 'Chelsea Market', cursive;
+}
 
+.text p {
+    width: 50%;
+    margin: 0 auto;
+}
 
 
 .top-section img {
     border-radius: 50%;
-    margin-left: 30px;
-    width:300px;
-    height:300px;
+    margin-left: 100px;
+    width:200px;
+    height:200px;
     
     
 }
@@ -69,10 +88,11 @@ nav {
 
 .middle-section {
     width: 90%;
-    background-color:tan;
+    background-color:#DDB9A3;
     color: white;
     padding: 1%;
     margin: 5%;
+    font-weight: bold;
 
     
 }
@@ -85,6 +105,7 @@ nav {
     text-align: center;
     margin:0 auto;
 }
+
 
 .fire-img {
     width: 30%;
@@ -102,6 +123,12 @@ nav {
     width: 30%;
     margin:5%;
 }
+
+footer {
+background-color:#F9E7DC ;
+
+}
+
 
 .footer-img {
     object-fit: cover;
