@@ -27,11 +27,9 @@ nav a {
   max-width: 130px;
 }
 
-.one:hover{
-    color:#ff764e;
-    background-color: white;
-    
-
+.one:hover {
+  color: #ff764e;
+  background-color: white;
 }
 
 .two {
@@ -41,10 +39,9 @@ nav a {
   max-width: 130px;
 }
 
-.two:hover{
+.two:hover {
   color: #5ed3eb;
   background-color: white;
-  
 }
 
 .three {
@@ -54,11 +51,10 @@ nav a {
   max-width: 130px;
 }
 
-.three:hover{
-color:#fcd69e;
-background-color: white;
+.three:hover {
+  color: #fcd69e;
+  background-color: white;
 }
-
 
 .top-section {
   display: inline-block;
